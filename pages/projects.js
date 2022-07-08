@@ -1,16 +1,16 @@
 import Head from 'next/head'
-import HomePage from '../container/HomePage'
+import ProjectsPage from '../container/ProjectsPage'
 
-export default function Home() {
+export default function Projects() {
   return (
     <>
       <Head>
-        <title>Corept | Home</title>
+        <title>Corept | Projects</title>
         <meta name="description" content="Corept Construction" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <HomePage/>
+      <ProjectsPage/>
     </>
   )
 }
