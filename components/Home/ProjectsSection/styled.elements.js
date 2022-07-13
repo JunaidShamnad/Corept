@@ -32,3 +32,6 @@ export const Description = styled.p`
 export const Button = styled.button`
 
 `
+export const Span = styled.span`
+
+`

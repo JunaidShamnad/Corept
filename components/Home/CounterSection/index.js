@@ -1,4 +1,4 @@
-import { Section, Container, Title, Counter, Number } from "./styled.elements";
+import { Section, Container, Title, Counter, Image } from "./styled.elements";
 
 function index() {
   return (

@@ -8,7 +8,8 @@ import {
   Image,
   Description,
   Button,
-  Project
+  Project,
+  Span
 } from "./styled.elements";
 
 function index() {

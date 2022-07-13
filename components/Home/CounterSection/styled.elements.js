@@ -13,6 +13,6 @@ export const Counter = styled.div`
 export const Title = styled.h1`
 
 `
-export const Number = styled.p`
+export const Image = styled.img`
 
 `
