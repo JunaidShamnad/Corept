@@ -11,16 +11,22 @@ export const SidebarContainer = styled.aside`
   display: grid;
   align-items: center;
   background: #fff;
-  top: 0;
-  left: 0;
   transition: all 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 `;
+
+export const SidebarTopContainer = styled.div`
+width:100%;
+position: absolute;
+top:1.8rem;
+display: flex;
+justify-content: space-between;
+padding:0 1rem;
+`
+
 export const IconContainer = styled(motion.div)`
-  position: absolute;
-  top: 1.2rem;
-  right: 1.5rem;
+  display:flex ;
   background: transparent;
   font-size: 2rem;
   cursor: pointer;
