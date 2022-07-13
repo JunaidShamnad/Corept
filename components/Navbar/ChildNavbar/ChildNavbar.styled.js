@@ -31,6 +31,8 @@ export const NavContainer = styled(motion.div)`
 export const Logo = styled(motion.img)`
   width: auto;
   height: 40px;
+  max-height:100%;
+  object-position:center;
   object-fit: cover;
   cursor: pointer;
 `;
@@ -44,6 +46,13 @@ export const NavMenu = styled(motion.ul)`
     display: none;
   }
 `;
+
+
+export const LogoText = styled.h1`
+ font-size:24px;
+ font-weight:600;
+`
+
 export const NavItem = styled(motion.li)`
   list-style: none;
   margin-right: 24px;

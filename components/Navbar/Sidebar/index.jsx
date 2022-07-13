@@ -1,13 +1,18 @@
 import Links from '../../../data/menuLinks';
-import { CloseIcon, IconContainer, SidebarContainer, SidebarMenu, SidebarMenuLink, SidebarMenuLinkA, SidebarMenuWrapper } from './Sidebar.styled'
+import {LogoText} from '../ChildNavbar/ChildNavbar.styled';
+import { CloseIcon, IconContainer, SidebarContainer, SidebarMenu, SidebarMenuLink, SidebarMenuLinkA, SidebarMenuWrapper, SidebarTopContainer } from './Sidebar.styled'
 
 const Sidebar = ({ isOpen,toggle}) => {
   return (
     
     <SidebarContainer isOpen={isOpen} onClick={toggle} >
-        <IconContainer onClick={toggle}>
+      <SidebarTopContainer>
+        <LogoText>Intelpik.</LogoText>
+      <IconContainer onClick={toggle}>
             <CloseIcon/>
         </IconContainer>
+      </SidebarTopContainer>
+       
         <SidebarMenuWrapper>
         {Links.map((link) => (
         <SidebarMenu key={link.id} onClick={toggle}>
