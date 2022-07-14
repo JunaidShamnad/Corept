@@ -10,12 +10,18 @@ padding: 0px 15px;
 margin: 0 auto;
 display: flex;
 flex-direction: row;
+@media(max-width: 768px){
+    flex-direction: column;
+}
 
 
 `
 export const LeftContainer = styled.div`
 width:570px;
 height:446.600px;
+@media(max-width: 768px){
+    width:90%;
+}
 `
 export const Image = styled.img`
 
@@ -24,9 +30,16 @@ export const Image = styled.img`
 export const Faqs = styled.div`
 
 `
+export const QuestionSection = styled.div`
+
+`
+
 
 export const RightContainer = styled.div`
 width:570px;
+@media(max-width: 768px){
+    width: 90%;
+}
 `
 export const Question = styled.h1`
     border-color: #ffb200;
@@ -44,7 +57,10 @@ export const Question = styled.h1`
     -o-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
 `
 export const Title = styled.h1`
     position: relative;

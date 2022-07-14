@@ -8,7 +8,11 @@ background-color: #f5f5f5;
 export const Container = styled.div`
 display: flex;
 flex-direction: row;
+
 overflow-x: scroll;
+@media(max-width: 768px){
+    flex-direction: column;
+}
 `
 export const LeftContainer = styled.div`
 
@@ -17,17 +21,26 @@ export const LeftContainer = styled.div`
 export const Image = styled.img`
 width: 770px;
 height:450px;
-
+@media(max-width: 768px){
+    width: 90%;
+    object-fit: cover;
+}
 `
 export const Project = styled.div`
 display: flex;
 flex-direction: row;
+@media(max-width: 768px){
+    flex-direction: column;
+}
 `
 
 export const RightContainer = styled.div`
 width: 370px;
 height:473px;
 padding: 95px 20px 0 20px;
+@media(max-width: 768px){
+    width: 90%;
+}
 `
 export const IndexNo = styled.h1`
     position: relative;

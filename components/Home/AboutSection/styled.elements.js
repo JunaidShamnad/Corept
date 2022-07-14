@@ -15,6 +15,7 @@ display: flex;
 flex-direction: row;
 @media(max-width: 768px){
     flex-direction:column;
+    align-items:center;
 }
 `
 export const LeftContainer = styled.div`
@@ -23,6 +24,11 @@ display: flex;
 flex-direction: row;
 width: 600px;
 height: 753px;
+@media(max-width: 768px){
+    flex-direction: column;
+    width:100%;
+    align-items:center;
+}
 `
 export const FirstImage = styled.img`
 width: 500px;
@@ -30,6 +36,11 @@ height:333px;
 position: absolute;
 right: 0;
 top:-100px;
+@media(max-width: 768px){
+    position: relative;
+    width: 90%;
+    object-fit:cover;
+}
 
 `
 export const DotImage = styled.img`
@@ -49,7 +60,9 @@ position: absolute;
 right:0;
 max-height: 635px;
 overflow: hidden;
-
+@media(max-width: 768px){
+    display: none;
+}
 `
 export const RightContainer = styled.div`
 width: 585px;
@@ -62,6 +75,11 @@ padding: 70px 90px 74px;
 background-color: #ffffff;
 border: 20px solid #f2f2f2;
 border-left: 0;
+@media(max-width: 768px){
+    padding: 15px;
+    width: 95%;
+    border-left:20px solid #f2f2f2;
+}
 `
 export const Title = styled.h1`
 position: relative;
@@ -69,6 +87,10 @@ color: #222222;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.4em;
+@media(max-width: 768px){
+    font-size: 24px;
+    margin-bottom:22px;
+}
 `
 export const Head = styled.h1`
 position: absolute;
@@ -91,6 +113,9 @@ font-size: 14px;
 line-height: 28px;
 color: #777777;
 margin-bottom: 45px;
+@media(max-width: 768px){
+    font-size: 14px;
+}
 `
 export const Button = styled.button`
 position: absolute;

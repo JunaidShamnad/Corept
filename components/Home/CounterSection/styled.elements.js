@@ -11,6 +11,10 @@ display: flex;
 flex-direction:row;
 width: 1200px;
 justify-content: center;
+@media(max-width: 768px){
+    flex-direction: column;
+    padding: 0;
+}
 `
 export const Counter = styled.div`
 
@@ -29,4 +33,7 @@ transition: all 0.3s ease;
 -o-transition: all 0.3s ease;
 -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
+@media(max-width: 768px){
+    width: 90%;
+}
 `

@@ -25,18 +25,18 @@ function index() {
           <Title>Some FAQ’s</Title>
           <Faqs>
             <QuestionSection>
-              <Icon><FaPlus/></Icon>
-              <Question>Best Company Ever</Question>
+              
+              <Question>Best Company Ever<FaMinus/></Question>
             </QuestionSection>
             
             <Answer>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</Answer>
           </Faqs>
           <Faqs>
-            <Question>Best Company Ever</Question>
+            <Question>Best Company Ever<FaMinus/></Question>
             <Answer>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</Answer>
           </Faqs>
           <Faqs>
-            <Question>Best Company Ever</Question>
+            <Question>Best Company Ever<FaMinus/></Question>
             <Answer>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</Answer>
           </Faqs>
           

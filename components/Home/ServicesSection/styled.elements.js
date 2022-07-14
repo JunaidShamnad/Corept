@@ -12,6 +12,11 @@ padding:50px 200px;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
+@media(max-width: 768px){
+    flex-direction: column;
+    padding:0;
+    
+}
 `
 export const Service = styled.div`
 margin: 25px;
@@ -33,6 +38,10 @@ margin-left: 0px;
 export const Image = styled.img`
 width: 370px;
 height: 270px;
+@media(max-width: 768px){
+    width: 90%;
+}
+
 `
 export const ServiceDiv = styled.div`
 display: flex;

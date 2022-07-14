@@ -10,6 +10,10 @@ display: flex;
 flex-direction: row;
 max-width: 970px;
 margin: 0 auto;
+@media(max-width: 768px){
+    flex-direction: column;
+    align-items: center;
+}
 `
 
 export const Title = styled.h1`
@@ -20,6 +24,13 @@ width: 100%;
 font-weight: 600;
 margin-top: 10px;
 text-transform: uppercase;
+@media(max-width: 768px){
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    line-height: 35px;
+    margin-bottom:25px;
+}
 
 `
 export const Button = styled.button`

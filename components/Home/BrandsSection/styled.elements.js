@@ -10,6 +10,9 @@ background-position: center;
 background-size: cover;
 background-attachment: fixed;
 flex-direction: row;
+@media(max-width: 768px){
+    height:100%;
+}
 
 `
 export const Container = styled.div`
@@ -21,6 +24,9 @@ align-items: center;
 justify-content: center;
 display: flex;
 flex-direction: row;
+@media(max-width: 768px){
+    flex-direction: column;
+}
 
 `
 export const Counter = styled.div`
@@ -34,6 +40,12 @@ color: #ffffff;
 font-weight: 700;
 padding: 20px 0;
 padding-left: 20px;
+@media(max-width: 768px){
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
 
 `
 
@@ -46,7 +58,9 @@ font-weight: 400;
 color: #dddddd;
 padding: 9px 0;
 width: 40%;
-font-family: "Rubik", sans-serif;
+@media(max-width: 768px){
+    width:100%;
+}
 `
 export const Number = styled.p`
 /* position: relative;
