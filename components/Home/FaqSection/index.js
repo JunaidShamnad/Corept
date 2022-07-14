@@ -9,20 +9,26 @@ import {
   Question,
   Answer,
   Image,
+  Icon,
+  QuestionSection,
 } from "./styled.elements";
-
+import{FaPlus,FaMinus} from 'react-icons/fa'
 function index() {
   return (
     <Section>
       <Container>
         <LeftContainer>
-          <Image src="http://construction.local/wp-content/uploads/2019/02/faq.jpg"/>
+          <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/02/faq.jpg"/>
         </LeftContainer>
         <RightContainer>
           <Head>Fequality Ask Question</Head>
           <Title>Some FAQ’s</Title>
           <Faqs>
-            <Question>Best Company Ever</Question>
+            <QuestionSection>
+              <Icon><FaPlus/></Icon>
+              <Question>Best Company Ever</Question>
+            </QuestionSection>
+            
             <Answer>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</Answer>
           </Faqs>
           <Faqs>

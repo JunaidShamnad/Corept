@@ -48,6 +48,7 @@ img{
 section{
     margin: 0 auto;
 }
+
 @media(max-width: 785px){
     img{
         width:90%;

@@ -1,18 +1,62 @@
 import styled from 'styled-components'
 
 export const Section = styled.div`
+background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/2020/10/3.jpg");
+width: 100%;
+height:181px;align-items: center;
+justify-content: center;display: flex;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+flex-direction: row;
 
 `
 export const Container = styled.div`
 padding:50px 200px;
+padding: 0px 15px;
+max-width: 1200px;
+margin: 0 auto;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: row;
+
 `
 export const Counter = styled.div`
+display: flex;
+flex-direction:row;
+align-items: center;
+position: relative;
+font-size: 60px;
+line-height: 1em;
+color: #ffffff;
+font-weight: 700;
+padding: 20px 0;
+padding-left: 20px;
 
 `
 
 export const Title = styled.h1`
-
+position: relative;
+display: block;
+font-size: 18px;
+line-height: 1.2em;
+font-weight: 400;
+color: #dddddd;
+padding: 9px 0;
+width: 40%;
+font-family: "Rubik", sans-serif;
 `
 export const Number = styled.p`
+/* position: relative;
+float: left; */
+margin-right: 15px;
+position: relative;
+display: inline-block;
+font-size: 60px;
+line-height: 1em;
+color: #ffffff;
+font-weight: 700;
 
 `

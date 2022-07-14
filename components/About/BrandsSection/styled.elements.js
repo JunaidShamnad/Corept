@@ -4,6 +4,10 @@ export const Section = styled.div`
 display: flex;
 flex-direction:row;
 justify-content: center;
+background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/5.jpg");
+
+-webkit-filter: grayscale(100%);
+filter: grayscale(75%);
 `
 export const Container = styled.div`
 padding:50px 200px;

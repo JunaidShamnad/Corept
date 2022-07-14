@@ -13,9 +13,6 @@ padding: 0px 15px;
 margin: 0 auto;
 display: flex;
 flex-direction: row;
-@media(max-width: 768px){
-    flex-direction:column;
-}
 `
 export const LeftContainer = styled.div`
 position: relative;
