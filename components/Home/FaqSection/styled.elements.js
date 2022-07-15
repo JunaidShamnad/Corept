@@ -28,7 +28,7 @@ export const Image = styled.img`
 
 `
 export const Faqs = styled.div`
-
+ user-select: none;
 `
 
 export const QuestionWrapper = styled.div`
