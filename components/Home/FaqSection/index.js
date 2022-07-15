@@ -16,10 +16,10 @@ import {
   QuestionWrapper,
 } from "./styled.elements";
 import{FiPlus,FiMinus} from 'react-icons/fi'
-function index() {
+function Faq() {
   const [clicked, setClicked] = useState(false);
 
-  const Toggle = (index) => {
+  const toggle = (index) => {
     if (clicked === index) {
       //if clicked question is already active, then close it
       return setClicked(null);
@@ -42,7 +42,7 @@ function index() {
             return (
               <>
               <QuestionWrapper>
-            <QuestionSection onClick={() => Toggle(index)} key={index}>
+            <QuestionSection onClick={() => toggle(index)} key={index}>
               
               <Question>{item.question} {clicked === index ?<FiMinus/>: <FiPlus />}</Question>
             </QuestionSection>
@@ -54,15 +54,6 @@ function index() {
             );
           })}
             </Faqs>
-{/*           
-          <Faqs>
-            <Question>Best Company Ever<FaMinus/></Question>
-            <Answer>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</Answer>
-          </Faqs>
-          <Faqs>
-            <Question>Best Company Ever<FaMinus/></Question>
-            <Answer>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</Answer>
-          </Faqs> */}
           
         </RightContainer>
       </Container>
@@ -70,4 +61,4 @@ function index() {
   );
 }
 
-export default index;
+export default Faq;

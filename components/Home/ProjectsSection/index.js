@@ -18,7 +18,7 @@ function index() {
       <Container>
         <Project>
           <LeftContainer>
-            <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/project-2.jpg"/>
+            <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/project-2.jpg" alt="image"/>
           </LeftContainer>
           <RightContainer>
             <IndexNo>01<Span>/01</Span></IndexNo>
@@ -31,7 +31,7 @@ function index() {
         </Project>
         <Project>
           <LeftContainer>
-            <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/project-2.jpg"/>
+            <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/project-2.jpg" alt="image"/>
           </LeftContainer>
           <RightContainer>
             <IndexNo>01<Span>/01</Span></IndexNo>
@@ -44,7 +44,7 @@ function index() {
         </Project>
         <Project>
           <LeftContainer>
-            <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/project-2.jpg"/>
+            <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/project-2.jpg" alt="image"/>
           </LeftContainer>
           <RightContainer>
             <IndexNo>01<Span>/01</Span></IndexNo>
