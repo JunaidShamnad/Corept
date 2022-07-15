@@ -1,11 +1,13 @@
 import {
-  Section,
   Container,
   Head,
   Title,
   Description,
   Buttons,
   Button,
+  SectionOne,
+  SectionTwo,
+  SectionThree,
 } from "./styled.elements";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -13,8 +15,8 @@ import { Carousel } from "react-responsive-carousel";
 
 function index() {
   return (
-    <Carousel showArrows={true} autoPlay={true} interval={1900} swipeable={true} width={"100%"} useKeyboardArrows={true}  emulateTouch={true} infiniteLoop={true}>
-    <Section>
+    <Carousel showArrows={true} autoPlay={true} interval={1900} swipeable={true} width={"100%"} useKeyboardArrows={true}  emulateTouch={true} infiniteLoop={true} showStatus={false}>
+    <SectionOne>
       <Container>
 
         <Head>We are the best</Head>
@@ -25,8 +27,8 @@ function index() {
           <Button>Contact</Button>
         </Buttons>
       </Container>
-    </Section>
-    <Section>
+    </SectionOne>
+    <SectionTwo>
       <Container>
 
         <Head>We are the best</Head>
@@ -37,8 +39,8 @@ function index() {
           <Button>Contact</Button>
         </Buttons>
       </Container>
-    </Section>
-    <Section>
+    </SectionTwo>
+    <SectionThree>
       <Container>
 
         <Head>We are the best</Head>
@@ -49,7 +51,7 @@ function index() {
           <Button>Contact</Button>
         </Buttons>
       </Container>
-    </Section>
+    </SectionThree>
     </Carousel>
   );
 }

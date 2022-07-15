@@ -1,14 +1,15 @@
 import styled from 'styled-components'
 
 export const Section = styled.div`
-position: static;
-max-width: 1200px;
 padding: 100px 0px;
-margin: 0 auto;
+
 text-align: center;
+width:100vw;
+height:100%;
 `
 export const Container = styled.div`
 padding:50px 200px;
+margin: 0 auto;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
@@ -20,6 +21,7 @@ justify-content: space-evenly;
 `
 export const Service = styled.div`
 margin: 25px;
+width:100%;
 `
 export const Icon = styled.i`
 background-color: #ffb200;

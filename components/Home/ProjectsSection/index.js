@@ -1,3 +1,4 @@
+import React, { CSSProperties } from 'react';
 import {
   Section,
   Container,
@@ -21,7 +22,7 @@ function index() {
   return (
     <Section>
       <Container>
-        <Carousel showArrows={true} autoPlay={true} interval={1900} swipeable={true} width={"100%"} useKeyboardArrows={true}  emulateTouch={true}>
+        <Carousel infiniteLoop={true} showArrows={true} autoPlay={true} interval={1900} swipeable={true} width={"100%"} useKeyboardArrows={true}  emulateTouch={true} showStatus={false}>
           <Project>
             <LeftContainer>
               <Image

@@ -1,10 +1,43 @@
 import styled from "styled-components";
 
 
-export const Section = styled.div`
+export const SectionOne = styled.div`
 background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/revslider/Home/slider-3.jpg");
 width:100%;
 height:100vh;
+background-size:cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+cursor:grab;
+@media(max-width: 768px){
+    flex-direction: column;
+}
+`
+
+export const SectionTwo = styled.div`
+background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/revslider/Home/slider-3.jpg");
+width:100%;
+height:100vh;
+background-size:cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: row;
+cursor:grab;
+justify-content: center;
+align-items: center;
+@media(max-width: 768px){
+    flex-direction: column;
+}
+`
+
+export const SectionThree = styled.div`
+background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/revslider/Home/slider-3.jpg");
+width:100%;
+height:100vh;
+cursor:grab;
 background-size:cover;
 background-repeat: no-repeat;
 display: flex;

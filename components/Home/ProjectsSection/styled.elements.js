@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
 export const Section = styled.div`
-  padding: 100px 0;
   margin-bottom: 100px;
   background-color: #f5f5f5;
-  max-width:100vw;
-  width:100%;
-
+  width:100vw;
+  height:100%;
 `;
 export const Container = styled.div`
   display: flex;
@@ -27,7 +25,7 @@ export const Image = styled.img`
   width: 770px;
   height: 450px;
   @media (max-width: 768px) {
-    width: 90%;
+    width: 100%;
     object-fit: cover;
   }
 `;
@@ -38,7 +36,10 @@ export const Project = styled.div`
   justify-content: center;
   padding:1.5rem;
   position: relative;
-  width: 100%;
+  width:100%;
+height:auto;
+background-size:cover;
+background-repeat: no-repeat;
   
   @media (max-width: 768px) {
     flex-direction: column;
