@@ -30,7 +30,12 @@ export const Image = styled.img`
 export const Faqs = styled.div`
 
 `
+
+export const QuestionWrapper = styled.div`
+margin-bottom:1rem;`
+
 export const QuestionSection = styled.div`
+
 
 `
 
