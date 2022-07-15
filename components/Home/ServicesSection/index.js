@@ -22,7 +22,7 @@ function index() {
       <SectionTitle>Whats Our Offers</SectionTitle>
       <Container>
         <Service>
-          <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/02/blog-4-370x270.jpg" />
+          <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/02/blog-4-370x270.jpg" alt="image"/>
           <ServiceDiv>
             <Icon></Icon>
             <Title>POST TENSIONING SERVICES</Title>
@@ -37,7 +37,7 @@ function index() {
           </ServiceDiv>
         </Service>
         <Service>
-          <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/services1-370x270.jpg" />
+          <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/services1-370x270.jpg" alt="image"/>
           <ServiceDiv>
             <Icon></Icon>
             <Title>POST TENSIONING SYSTEM</Title>

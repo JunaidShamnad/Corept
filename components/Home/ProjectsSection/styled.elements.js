@@ -57,8 +57,8 @@ export const RightContainer = styled.div`
 export const IndexNo = styled.h1`
   position: relative;
   color: #febc35;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 500;
   margin-bottom: 50px;
 `;
 export const Title = styled.h1`
@@ -67,8 +67,10 @@ export const Title = styled.h1`
 `;
 export const Description = styled.p`
   position: relative;
-  line-height: 1.8em;
+  opacity:0.8;
+  line-height: 1.5em;
   margin-bottom: 1rem;
+  width:100%;
 `;
 export const Button = styled.button`
   position: relative;
@@ -84,6 +86,9 @@ export const Button = styled.button`
   background-color: transparent;
   border: none;
 `;
-export const Span = styled.span``;
+export const Span = styled.span`
+font-size:22px;
+font-weight:600;
+`;
 export const QuestionSection = styled.div``;
 export const Icon = styled.div``;

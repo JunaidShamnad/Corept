@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
 
 html,
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
     background-color:#fff;
@@ -31,7 +31,7 @@ a {
     box-sizing: border-box;
     padding: 0;
     margin: 0;   
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
     /*---------------------------- for inspection of frontend  *start-------------------------------- */
     /* background-color:rgba(27, 245, 49, 0.12);*/
