@@ -33,8 +33,11 @@ const Footer = () => {
         <FooterWrapper>
           <FooterTopWrapper>
             <FooterLogoDiv>
-              <FooterLogoDivImage src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyebtd1EtHzb3yStiqATU1n3Zu6V393BhXjg&usqp=CAU"/>
-              <FooterLogoDivDesc>Emarat ipsum amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore agna aliquam erat. ipsum dolor sit amet, consectetuer adipiscing.</FooterLogoDivDesc>
+              <FooterLogoDivImage src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyebtd1EtHzb3yStiqATU1n3Zu6V393BhXjg&usqp=CAU" />
+              <FooterLogoDivDesc>
+                We are a Bahraini Company headed by the Executive Director, Mrs.
+                Aala Ebrahim Janahi and Director of Mr. Mohammed Janahi
+              </FooterLogoDivDesc>
               <FooterLogoDivSocial>
                 <FooterLogoDivLink href="facebook.com">
                   <FooterLogoDivLinkA>
@@ -58,25 +61,30 @@ const Footer = () => {
 
             <FooterWorkingDiv>
               <FooterWorkingTitle>Working Hours</FooterWorkingTitle>
-              <FooterWorkingTitleUnderline/>
+              <FooterWorkingTitleUnderline />
               <IconContainer>
-                <IconContainerMail/> <IconContainerText>info@example.com</IconContainerText>
+                <IconContainerMail />{" "}
+                <IconContainerText>info@corept.me</IconContainerText>
               </IconContainer>
               <IconContainer>
-                <IconContainerPhone/> <IconContainerText>1-800-985-357</IconContainerText>
+                <IconContainerPhone />{" "}
+                <IconContainerText>+973 3230 2049</IconContainerText>
               </IconContainer>
               <IconContainer>
-                <IconContainerLocation/> <IconContainerText>185, Pickton Near Street, Los Angeles, USA</IconContainerText>
+                <IconContainerLocation />{" "}
+                <IconContainerText>Kingdom of Bahrain</IconContainerText>
               </IconContainer>
               <IconContainer>
-                <IconContainerTime/> <IconContainerText>09:00 am - 06:00 pm</IconContainerText>
+                <IconContainerTime />{" "}
+                <IconContainerText>08:00 am - 05:00 pm</IconContainerText>
               </IconContainer>
             </FooterWorkingDiv>
           </FooterTopWrapper>
 
           <FooterBottomWrapper>
             <FooterCopyRightText>
-              Copyrights 2022. All Rights are Reserved by&nbsp;<FooterCopyRightTextSpan>Intelpik</FooterCopyRightTextSpan>
+              Copyrights 2022. All Rights are Reserved by&nbsp;
+              <FooterCopyRightTextSpan>Intelpik</FooterCopyRightTextSpan>
             </FooterCopyRightText>
           </FooterBottomWrapper>
         </FooterWrapper>

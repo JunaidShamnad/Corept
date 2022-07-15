@@ -33,6 +33,7 @@ height: 753px;
 export const FirstImage = styled.img`
 width: 500px;
 height:333px;
+object-fit:cover;
 position: absolute;
 right: 0;
 top:-100px;
@@ -54,9 +55,11 @@ export const DotImage = styled.img`
 
 `
 export const SecondImage = styled.img`
-width: 355px;
+width: 360px;
+height:auto;
 z-index:99;
 position: absolute;
+object-fit:cover;
 right:0;
 max-height: 635px;
 overflow: hidden;
@@ -103,7 +106,7 @@ color: #f2f2f2;
 z-index:999;
 font-weight: 900;
 text-transform: uppercase;
-text-shadow: 0 0 10px #000;
+text-shadow: 2px 0px 3px rgba(36,16,10,0.65);
 font-family: "Rubik", sans-serif;
 `
 export const Description = styled.p`

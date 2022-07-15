@@ -25,7 +25,7 @@ function index() {
           <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/02/blog-4-370x270.jpg" />
           <ServiceDiv>
             <Icon></Icon>
-            <Title>Interior Design</Title>
+            <Title>POST TENSIONING SERVICES</Title>
             <Overlay>
               <Description>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -40,7 +40,7 @@ function index() {
           <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/services1-370x270.jpg" />
           <ServiceDiv>
             <Icon></Icon>
-            <Title>Interior Design</Title>
+            <Title>POST TENSIONING SYSTEM</Title>
             <Overlay>
               <Description>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -51,7 +51,7 @@ function index() {
             </Overlay>
           </ServiceDiv>
         </Service>
-        <Service>
+        {/* <Service>
           <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/service-5-370x270.jpg" />
           <ServiceDiv>
             <Icon></Icon>
@@ -65,7 +65,7 @@ function index() {
               <Button>Read More</Button>
             </Overlay>
           </ServiceDiv>
-        </Service>
+        </Service> */}
       </Container>
     </Section>
   );

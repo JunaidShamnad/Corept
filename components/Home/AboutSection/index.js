@@ -23,15 +23,13 @@ function index() {
           <Head>About Us</Head>
         </LeftContainer>
         <RightContainer>
-          <Title>Any Complexity For Any Cat</Title>
+          <Title>Committed 	&amp; Motivated</Title>
           <Description>
-            Our company has many years experience and specializes in
-            manufacturing, salling, serviceing and repairing cardan shafts
-            (cardans) for various vehicles, technological equipment, tractor,
-            special machinery and agricultural machinery of verious domestic and
-            foreign manufacturers.
+          CORE PT Construction was established by a team of Bahrain with experienced professionals in the year of 2021 with the aim to provide value added engineering solutions to our clients using Post Tensioning technology.
+          
+          We as a Specialist agency in Post Tensioning, offer efficient structural solution to Building and infrastructure works. We involve in exploring appropriate Engineering systems and construction, Post Tensioning design 	&amp; Execution services to assist the clients in enhancing their projects build ability and cost-effectiveness.
           </Description>
-          <Button>About Us</Button>
+          <Button>Contact</Button>
         </RightContainer>
       </Container>
     </Section>

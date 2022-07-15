@@ -32,7 +32,7 @@ export const Container = styled.div`
 `;
 
 export const FooterWrapper = styled.div`
-
+width:100%;
 `;
 export const FooterTopWrapper = styled.div`
   display: flex;
