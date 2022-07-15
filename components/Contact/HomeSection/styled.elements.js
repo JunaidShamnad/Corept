@@ -25,6 +25,10 @@ export const Title = styled.h1`
 font-size:54px;
 color:#fff;
 text-align: center;
+@media(max-width: 768px){
+    font-size: 30px;
+    text-align: left;
+}
 
 `
 export const Description = styled.p`

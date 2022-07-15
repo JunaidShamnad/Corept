@@ -5,6 +5,9 @@ export const Section = styled.div`
   background-color: #f5f5f5;
   width:100vw;
   height:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 `;
 export const Container = styled.div`
   display: flex;
@@ -13,10 +16,12 @@ export const Container = styled.div`
   align-items: center;
  user-select: none;
  overflow:hidden;
+ width: 90%;
  cursor:grab;
   @media (max-width: 768px) {
     flex-direction: column;
   }
+  
 `;
 export const LeftContainer = styled.div`
 margin-right:1rem;
@@ -24,6 +29,7 @@ margin-right:1rem;
 export const Image = styled.img`
   width: 770px;
   height: 450px;
+  border-radius: 20px;
   @media (max-width: 768px) {
     width: 100%;
     object-fit: cover;
@@ -44,15 +50,25 @@ background-repeat: no-repeat;
   @media (max-width: 768px) {
     flex-direction: column;
   }
+  @media (min-width: 768px)and (max-width:1367px) {
+    flex-direction: column;
+  }
 `;
 
 export const RightContainer = styled.div`
   width: 370px;
   height: 473px;
   padding: 95px 20px 0 20px;
-  @media (max-width: 768px) {
+  margin-left: auto;
+
+margin-right:auto;  
+@media (max-width: 768px) {
     width: 90%;
   }
+  @media (min-width: 768px)and (max-width:1367px) {
+    width: 60%;
+  }
+  
 `;
 export const IndexNo = styled.h1`
   position: relative;
@@ -64,6 +80,9 @@ export const IndexNo = styled.h1`
 export const Title = styled.h1`
   position: relative;
   margin-bottom: 30px;
+  @media (max-width: 768px){
+    font-size: 20px;
+  }
 `;
 export const Description = styled.p`
   position: relative;
@@ -71,6 +90,12 @@ export const Description = styled.p`
   line-height: 1.5em;
   margin-bottom: 1rem;
   width:100%;
+  @media (max-width: 768px){
+    font-size: 12px;
+    width: 65%;
+    margin-right: 0;
+    
+  }
 `;
 export const Button = styled.button`
   position: relative;

@@ -1,24 +1,23 @@
-import { Section, Container, Title, Counter, Number } from "./styled.elements";
+import { Section, Container, Title, Counter, Image } from "./styled.elements";
 
 function index() {
   return (
     <Section>
       <Container>
         <Counter>
-          <Number>14</Number>
-          <Title>Years of Experience</Title>
+          <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/1.png"/>
         </Counter>
         <Counter>
-          <Number>237</Number>
-          <Title>Project Taken</Title>
+        <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/2.png"/>
         </Counter>
         <Counter>
-          <Number>11K</Number>
-          <Title>Twitter Follower</Title>
+        <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/4.png"/>
         </Counter>
         <Counter>
-          <Number>12</Number>
-          <Title>Awards won</Title>
+        <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/3.png"/>
+        </Counter>
+        <Counter>
+        <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/5.png"/>
         </Counter>
       </Container>
     </Section>

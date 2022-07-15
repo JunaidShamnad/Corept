@@ -12,6 +12,9 @@ export const Container = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
+@media (max-width: 768px) {
+    width: 90%;
+}
 `
 export const Head = styled.h3`
     position: relative;
@@ -21,14 +24,16 @@ export const Head = styled.h3`
     margin-bottom: 10px;
     text-align: center;
 `
-export const Title = styled.h1`
+export const Title = styled.h2`
     position: relative;
     color: #222222;
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 10px;
-    margin: 0 auto;
     text-align: center;
+    @media(max-width: 768px){
+        font-size: 26px;
+    }
 `
 export const Description = styled.p`
 position: relative;
@@ -38,15 +43,24 @@ position: relative;
     max-width: 730px;
     margin: 0 auto;
     text-align: center;
-
+margin-bottom: 60px;
 `
 export const Form = styled.form`
-margin: 0 auto;
+
+width: 100%;
+@media(max-width: 768px){
+    margin-top: 60px;
+    margin:0 auto;
+}
 `
 export const FirstInput = styled.div`
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
+    @media (max-width: 768px){
+        flex-direction: column;
+        width: 100%;
+    }
 `
 export const Name = styled.input`
     display: block;
@@ -62,6 +76,9 @@ export const Name = styled.input`
     transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
     outline: none;
+    @media (max-width: 768px){
+        margin-bottom: 30px;
+    }
 `
 export const Email = styled.input`
     display: block;
@@ -94,6 +111,9 @@ display: block;
     font-size: 14px;
     background: none;
     border: 1px solid #dddddd;
+    @media(max-width: 768px){
+        margin-bottom: 60px;
+    }
 `
 export const Button = styled.button`
     color: #222222;

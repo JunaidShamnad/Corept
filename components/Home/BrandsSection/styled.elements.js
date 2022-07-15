@@ -1,74 +1,45 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Section = styled.div`
-  background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/2020/10/3.jpg");
-  width: 100%;
-  height: 181px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  flex-direction: row;
-  @media (max-width: 768px) {
-    height: 100%;
-  }
-`;
+display: flex;
+flex-direction:row;
+justify-content: center;
+background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-filter: grayscale(100%);
+filter: grayscale(75%);
+`
 export const Container = styled.div`
-  padding: 50px 200px;
-  padding: 0px 15px;
-  max-width: 1200px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  @media (max-width: 768px) {
+padding:50px 200px;
+display: flex;
+flex-direction:row;
+width: 1200px;
+justify-content: center;
+@media(max-width: 768px){
     flex-direction: column;
-  }
-`;
+    padding:50px 0;
+    align-items: center;
+}
+`
 export const Counter = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: relative;
-  font-size: 60px;
-  line-height: 1em;
-  color: #ffffff;
-  font-weight: 700;
-  padding: 20px 0;
-  padding-left: 20px;
-  @media (max-width: 768px) {
-    margin-bottom: 40px;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-  }
-`;
+@media(max-width:767px){
+    margin-bottom:50px;
+}
+`
 
 export const Title = styled.h1`
-  position: relative;
-  display: block;
-  font-size: 18px;
-  line-height: 1.2em;
-  font-weight: 400;
-  color: #dddddd;
-  padding: 9px 0;
-  width: 40%;
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-`;
-export const Number = styled.p`
-  /* position: relative;
-float: left; */
-  margin-right: 15px;
-  position: relative;
-  display: inline-block;
-  font-size: 60px;
-  line-height: 1em;
-  color: #ffffff;
-  font-weight: 700;
-`;
+
+`
+export const Image = styled.img`
+width: 234px;
+display: inline-block;
+transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+
+`

@@ -12,13 +12,9 @@ function index() {
   return (
     <Section>
       <Container>
-        <Head>We are the best</Head>
-        <Title>Construction Experts</Title>
-        <Description>lorem ipsum is a text generator</Description>
-        <Buttons>
-          <Button>Our Work</Button>
-          <Button>Contact</Button>
-        </Buttons>
+        
+        <Title>About us</Title>
+        
       </Container>
     </Section>
   );

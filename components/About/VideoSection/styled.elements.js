@@ -6,6 +6,7 @@ flex-direction:row;
 justify-content: center;
 background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/7.jpg");
 padding:100px 0;
+
 `
 export const Container = styled.div`
 padding:50px 200px;
@@ -14,6 +15,10 @@ flex-direction:column;
 width: 1200px;
 justify-content: center;
 align-items: center;
+@media(max-width: 768px){
+    padding:50px 0;
+    width: 90%;
+}
 
 `
 
@@ -25,6 +30,9 @@ position: relative;
     line-height: 1.4em;
     margin-top: 20px;
     margin-bottom: 15px;
+    @media(max-width: 768px){
+        font-size: 30px;
+    }
 
 `
 export const Head = styled.h1`

@@ -4,7 +4,10 @@ export const Section = styled.div`
 background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/2020/10/1.jpg");
 background-repeat: no-repeat;
 padding:200px 0 100px 0;
-position: relative; 
+position: relative;
+@media(max-width: 768px){
+    padding: 20px 0 100px 0;
+} 
 `
 export const Container = styled.div`
 position: static;
@@ -28,12 +31,12 @@ height: 753px;
     flex-direction: column;
     width:100%;
     align-items:center;
+    height: 100%;
 }
 `
 export const FirstImage = styled.img`
 width: 500px;
 height:333px;
-object-fit:cover;
 position: absolute;
 right: 0;
 top:-100px;
@@ -42,6 +45,9 @@ top:-100px;
     width: 90%;
     object-fit:cover;
 }
+@media (min-width: 768px)and (max-width:1367px) {
+    display: none;
+  }
 
 `
 export const DotImage = styled.img`
@@ -55,11 +61,9 @@ export const DotImage = styled.img`
 
 `
 export const SecondImage = styled.img`
-width: 360px;
-height:auto;
+width: 355px;
 z-index:99;
 position: absolute;
-object-fit:cover;
 right:0;
 max-height: 635px;
 overflow: hidden;
@@ -69,7 +73,7 @@ overflow: hidden;
 `
 export const RightContainer = styled.div`
 width: 585px;
-height:545px;
+height:585px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -96,6 +100,26 @@ line-height: 1.4em;
 }
 `
 export const Head = styled.h1`
+@media(min-width: 1368px){
+    display: none;
+
+}
+@media (min-width: 768px)and (max-width:1367px) {
+    display: inline-block;
+    z-index:999;
+    margin-bottom: 50px;
+
+    
+  }
+font-size: 36px;
+line-height: 78px;
+color: #f2f2f2;
+font-weight: 900;
+text-transform: uppercase;
+text-shadow: 0 0 10px #000;
+font-family: "Rubik", sans-serif;
+`
+export const Head2 = styled.h1`
 position: absolute;
 bottom: 200px;
 left: 0;
@@ -106,8 +130,14 @@ color: #f2f2f2;
 z-index:999;
 font-weight: 900;
 text-transform: uppercase;
-text-shadow: 2px 0px 3px rgba(36,16,10,0.65);
+text-shadow: 0 0 10px #000;
 font-family: "Rubik", sans-serif;
+@media(max-width: 768px){
+    display: none;
+}
+@media (min-width: 768px)and (max-width:1367px) {
+    display: none;
+  }
 `
 export const Description = styled.p`
 position: relative;

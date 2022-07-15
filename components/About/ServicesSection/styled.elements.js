@@ -1,20 +1,34 @@
 import styled from 'styled-components'
 
 export const Section = styled.div`
-position: static;
-max-width: 1200px;
 padding: 100px 0px;
-margin: 0 auto;
+
 text-align: center;
+width:100vw;
+height:100%;
 `
 export const Container = styled.div`
 padding:50px 200px;
+margin: 0 auto;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
+@media(max-width: 768px){
+    flex-direction: column;
+    padding:0;
+    
+}
 `
 export const Service = styled.div`
 margin: 25px;
+width:100%;
+display: flex;
+flex-direction:column;
+align-items: center;
+@media (max-width: 768px) {
+    margin: 0;
+      margin-bottom:40px;
+}
 `
 export const Icon = styled.i`
 background-color: #ffb200;
@@ -33,6 +47,11 @@ margin-left: 0px;
 export const Image = styled.img`
 width: 370px;
 height: 270px;
+@media(max-width: 768px){
+    width: 90%;
+    margin-top:50px;
+}
+
 `
 export const ServiceDiv = styled.div`
 display: flex;
@@ -44,6 +63,12 @@ padding: 11px 0px;
 height:71px;
 background-color: rgba(0,0,0,0.90);
 color:#fff;
+@media(max-width: 768px){
+    width:90%;
+}
+@media (min-width: 768px)and (max-width:1367px) {
+    width: 100%;
+}
 `
 export const Button = styled.button`
 
@@ -60,6 +85,7 @@ export const Title = styled.h1`
     font-weight: 600;
     padding: 11px 0px;
     padding-left: 100px;
+    
 
 `
 export const Description = styled.h1`
