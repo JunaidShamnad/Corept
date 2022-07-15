@@ -60,6 +60,7 @@ height: 18px;
 transform: translate(-32px, -38px);
 top: 100%;
 left: 50%; */
+color: #fff;
 @media(max-width: 768px){
     
 }
@@ -67,6 +68,7 @@ left: 50%; */
 export const Title = styled.h1`
 font-size:54px;
 color:#fff;
+width:80%;
 text-align: center;
 @media(max-width: 768px){
     font-size: 37px;
@@ -78,6 +80,8 @@ export const Description = styled.p`
 font-size:18px;
 text-align: center;
 margin-top: 15px;
+width:45%;
+line-height:130%;
 color:#fff;
 @media(max-width: 768px){
     /* opacity: 1;
@@ -101,6 +105,19 @@ export const Button = styled.button`
     border-radius: 50px;
     border: none;
     color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    font-weight:500;
+    font-size:18px;
+`
+export const ButtonTwo = styled.button`
+    background: transparent;
+    border:2px solid #ffb200;
+    width: 140px;
+    height: 42px;
+    border-radius: 50px;
+    color: #ffb200;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 30px;
