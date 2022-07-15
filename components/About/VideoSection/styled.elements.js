@@ -25,6 +25,7 @@ align-items: center;
 export const Title = styled.h1`
 position: relative;
     color: #ffffff;
+    text-align: center;
     font-size: 48px;
     font-weight: 700;
     line-height: 1.4em;

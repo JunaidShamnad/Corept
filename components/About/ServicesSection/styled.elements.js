@@ -45,13 +45,15 @@ font-size: 34px;
 margin-left: 0px;
 `
 export const Image = styled.img`
-width: 370px;
-height: 270px;
+width: 100%;
+object-fit: cover;
 @media(max-width: 768px){
     width: 90%;
     margin-top:50px;
 }
-
+@media(min-width: 768px)and (max-width:1367px){
+    width: 90%;
+}
 `
 export const ServiceDiv = styled.div`
 display: flex;
@@ -63,10 +65,13 @@ padding: 11px 0px;
 height:71px;
 background-color: rgba(0,0,0,0.90);
 color:#fff;
-@media(max-width: 768px){
+@media(max-width: 767px){
     width:90%;
 }
 @media (min-width: 768px)and (max-width:1367px) {
+    width: 90%;
+}
+@media(min-width: 1368px){
     width: 100%;
 }
 `

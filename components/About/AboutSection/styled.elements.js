@@ -101,7 +101,9 @@ line-height: 1.4em;
 }
 `
 export const Head = styled.h1`
-
+@media(min-width: 1368px){
+    display: none;
+}
 margin-bottom: 150px;
 font-size: 36px;
 line-height: 78px;

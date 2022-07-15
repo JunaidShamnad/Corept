@@ -63,8 +63,8 @@ justify-content: center;
     padding-right:0;
 }
 @media (min-width: 768px)and (max-width:1367px) {
-    padding-right:0;.
-    
+    padding-right:0;
+
 }
 `
 export const ContactDetails = styled.div`
@@ -86,7 +86,8 @@ export const Icons = styled.div`
 
 `
 export const RightContainer = styled.div`
-
+width: 100%;
+margin-top: 50px;
 `
 export const Map = styled.iframe`
 
@@ -101,5 +102,8 @@ export const Map = styled.iframe`
     height: 100%;
     width: 100%;
     touch-action: pan-x pan-y;
+    }
+    @media (min-width: 768px)and (max-width:1367px) {
+        width: 100%;
     }
 `
