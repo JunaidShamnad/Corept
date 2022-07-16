@@ -1,6 +1,8 @@
+import Projects from '../../components/Services/ProjectSection'
+
 const ProjectsPage = () => {
     return (
-      <div>ProjectsPage</div>
+      <Projects/>
     )
   }
   

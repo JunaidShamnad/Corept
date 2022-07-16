@@ -6,7 +6,7 @@ export default function Projects() {
     <>
       <Home/>
       <Project/>
-      <Contact/>
+      {/* <Contact/> */}
     </>
   )
 }
