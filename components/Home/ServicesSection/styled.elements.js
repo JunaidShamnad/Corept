@@ -22,6 +22,13 @@ justify-content: space-evenly;
 export const Service = styled.div`
 margin: 25px;
 width:100%;
+display: flex;
+flex-direction:column;
+align-items: center;
+@media (max-width: 768px) {
+    margin: 0;
+    margin-bottom:40px;
+}
 `
 export const Icon = styled.i`
 background-color: #ffb200;
@@ -42,6 +49,7 @@ width: 370px;
 height: 270px;
 @media(max-width: 768px){
     width: 90%;
+    margin-top:50px;
 }
 
 `
@@ -55,6 +63,12 @@ padding: 11px 0px;
 height:71px;
 background-color: rgba(0,0,0,0.90);
 color:#fff;
+@media(max-width: 768px){
+    width:90%;
+}
+@media (min-width: 768px)and (max-width:1367px) {
+    width: 100%;
+}
 `
 export const Button = styled.button`
 
@@ -71,6 +85,7 @@ export const Title = styled.h1`
     font-weight: 600;
     padding: 11px 0px;
     padding-left: 100px;
+    
 
 `
 export const Description = styled.h1`

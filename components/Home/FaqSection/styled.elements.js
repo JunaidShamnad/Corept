@@ -12,13 +12,13 @@ display: flex;
 flex-direction: row;
 @media(max-width: 768px){
     flex-direction: column;
+    align-items: center;
 }
 
 
 `
 export const LeftContainer = styled.div`
-width:570px;
-height:446.600px;
+width: 70%;
 @media(max-width: 768px){
     width:90%;
 }
@@ -42,6 +42,9 @@ export const QuestionSection = styled.div`
 
 export const RightContainer = styled.div`
 width:570px;
+display: flex;
+flex-direction: column;
+align-items: center;
 @media(max-width: 768px){
     width: 90%;
 }

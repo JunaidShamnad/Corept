@@ -23,12 +23,12 @@ export default function HomePage() {
         <>
           <Home/>
           <About/>
-          <Brands/>
+          <Counter/>
           <Services/>
           <Project/>
           <Quote/>
           <Faq/>
-          <Counter/>
+          <Brands/>
         </>
   )
 

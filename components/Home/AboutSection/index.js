@@ -9,6 +9,7 @@ import {
   Description,
   Button,
   Head,
+  Head2,
   DotImage
 } from "./styled.elements";
 
@@ -18,9 +19,10 @@ function index() {
       <DotImage src="https://expert-themes.com/newwp/emarat/wp-content/themes/emarat/assets/images/resource/curve-1.png"/>
       <Container>
         <LeftContainer>
+          <Head>About Us</Head>
           <FirstImage src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2020/10/about-1.jpg" />
           <SecondImage src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2020/10/img-01-1.jpg" />
-          <Head>About Us</Head>
+          <Head2>About Us</Head2>
         </LeftContainer>
         <RightContainer>
           <Title>Committed 	&amp; Motivated</Title>
