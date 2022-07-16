@@ -16,13 +16,13 @@ import {
 function index() {
   return (
     <Section>
-      <DotImage src="https://expert-themes.com/newwp/emarat/wp-content/themes/emarat/assets/images/resource/curve-1.png"/>
+      <DotImage src="https://expert-themes.com/newwp/emarat/wp-content/themes/emarat/assets/images/resource/curve-1.png" alt="image"/>
       <Container>
         <LeftContainer>
-          <Head>About us</Head>
+          {/* <Head>About us</Head> */}
           <FirstImage src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2020/10/about-1.jpg" />
-          <SecondImage src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2020/10/img-01-1.jpg" />
-          <Head2>About Us</Head2>
+          <SecondImage src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2020/10/img-01-1.jpg" alt="image"/>
+          {/* <Head2>About Us</Head2> */}
         </LeftContainer>
         <RightContainer>
           <Title>Any Complexity For Any Cat</Title>

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Image from 'next/image'
 
 export const Section = styled.div`
 background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/2020/10/1.jpg");
@@ -38,7 +39,8 @@ export const FirstImage = styled.img`
 width: 500px;
 height:333px;
 position: absolute;
-right: 0;
+object-fit:cover;
+right:30px;
 top:-100px;
 @media(max-width: 768px){
     position: relative;
@@ -61,11 +63,13 @@ export const DotImage = styled.img`
 
 `
 export const SecondImage = styled.img`
-width: 355px;
+width: 360px;
 z-index:99;
 position: absolute;
+object-fit:cover;
 right:0;
-max-height: 635px;
+max-height: 620px;
+/* height:auto; */
 overflow: hidden;
 @media(max-width: 768px){
     display: none;
