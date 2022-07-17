@@ -32,7 +32,7 @@ export const Image = styled.img`
 `
 export const Faqs = styled.div`
  user-select: none;
- width:90%;
+ width:90vw;
  height:auto;
 `
 
