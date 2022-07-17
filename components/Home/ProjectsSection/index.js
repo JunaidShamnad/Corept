@@ -18,6 +18,7 @@ import { Carousel } from "react-responsive-carousel";
 import Link from 'next/link'
 
 function index() {
+ 
   return (
     <Section>
       <Container>

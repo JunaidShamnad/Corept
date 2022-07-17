@@ -27,10 +27,12 @@ a {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
+    user-select: none;
 }
 
 * {
     box-sizing: border-box;
+    user-select: none;
     padding: 0;
     margin: 0;   
     font-family: 'Poppins', sans-serif;
