@@ -15,6 +15,7 @@ export const Section = styled.div`
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
+  touch-action: pan-down;
   justify-content: center;
   align-items: center;
   user-select: none;
@@ -49,6 +50,7 @@ export const Image = styled.img`
 `;
 export const Project = styled.div`
   display: flex;
+  touch-action: pan-down;
   flex-direction:row;
   align-items: center;
   justify-content: center;
