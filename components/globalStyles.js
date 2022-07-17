@@ -21,6 +21,7 @@ html {
 
 body{
     min-height:100vh;
+    user-select:none;
 }
 a {
     color: inherit;
