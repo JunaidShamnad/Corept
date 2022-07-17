@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Links from "../../../data/menuLinks";
-import LogoImage from "/public/images/logo.jpg";
 import {
   Logo,
   MenuIcon,
@@ -34,7 +33,7 @@ const ChildNavbar = ({ toggle}) => {
     <Nav  scrollNav={scrollNav} >
       <NavContainer>
         <NavLink href="/">
-          <a><Logo src={LogoImage.src} alt="logo" /></a>
+          <a><Logo src="/images/logo.jpg" alt="logo" /></a>
         </NavLink>
         <MobileMenu onClick={toggle}>
           <MenuIcon />

@@ -17,7 +17,7 @@ import Link from 'next/link';
 
 function index() {
   return (
-    <Carousel showArrows={true} autoPlay={true} interval={1900} swipeable={true} width={"100%"} useKeyboardArrows={true}  emulateTouch={true} infiniteLoop={true} showStatus={false} showThumbs={false}>
+    <Carousel showArrows={true} autoPlay={true} interval={1900} width={"100%"} useKeyboardArrows={true} infiniteLoop={true} showStatus={false} showThumbs={false}>
     <SectionOne>
       <Container>
 
