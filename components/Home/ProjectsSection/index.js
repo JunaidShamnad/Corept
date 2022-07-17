@@ -26,10 +26,8 @@ function index() {
           showArrows={true}
           autoPlay={true}
           interval={1900}
-          swipeable={true}
           width={"100%"}
           useKeyboardArrows={true}
-          emulateTouch={true}
           showStatus={false}
           showThumbs={false}
         >
