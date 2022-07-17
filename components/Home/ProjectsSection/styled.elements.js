@@ -10,6 +10,7 @@ export const Section = styled.div`
   justify-content: center;
   align-items: center;
   margin-top:100px;
+  touch-action: pan-down;
 `;
 export const Container = styled.div`
   display: flex;

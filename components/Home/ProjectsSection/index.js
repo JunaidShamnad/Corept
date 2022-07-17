@@ -30,6 +30,9 @@ function index() {
           useKeyboardArrows={true}
           showStatus={false}
           showThumbs={false}
+          stopOnHover={true}
+          swipeable={true}
+          emulateTouch={true}
         >
           <Project>
             <LeftContainer>
