@@ -23,7 +23,7 @@ function index() {
 
         {/* <Head>We are the best</Head> */}
         <Title>Your Expectations are Our Milestones</Title>
-        <Description>We as a Specialist agency in Post Tensioning, offer efficient structural solution to Building and infrastructure works.</Description>
+        <Description>We as a Specialist agency in Post Tensioning, offer efficient structural solution&apos;s.</Description>
         <Buttons>
         <Link href="/projects" passHref>
           <a><Button>Our Work</Button></a>

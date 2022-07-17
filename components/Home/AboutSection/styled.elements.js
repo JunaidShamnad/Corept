@@ -5,8 +5,14 @@ background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads
 background-repeat: no-repeat;
 padding:200px 0 100px 0;
 position: relative;
+
 @media(max-width: 768px){
     padding: 200px 0 100px 0;
+    margin-bottom:3rem;
+} 
+@media(max-width: 299px){
+    padding: 200px 0 100px 0;
+    margin-bottom:5rem;
 } 
 `
 export const Container = styled.div`

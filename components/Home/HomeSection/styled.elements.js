@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const SectionOne = styled.div`
 background-image: url("/images/Banner-1.jpg");
 width:100%;
-height:108vh;
+height:100vh;
 margin-top:0;
 background-size:cover;
 background-repeat: no-repeat;
@@ -75,8 +75,9 @@ color:#fff;
 width:80%;
 text-align: center;
 @media(max-width: 768px){
-    font-size: 37px;
-    width: 90%;
+    font-size: 35px;
+    width: 95%;
+    font-weight:600;
 }
 
 `
@@ -88,7 +89,8 @@ width:48%;
 line-height:130%;
 color:#fff;
 @media(max-width: 768px){
-width:65%;
+width:75%;
+font-size:16px;
 }
 `
 export const Buttons = styled.div`
@@ -96,7 +98,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 
-@media screen and (max-width:400px){
+@media screen and (max-width:340px){
     flex-direction:column;
 }
 `
