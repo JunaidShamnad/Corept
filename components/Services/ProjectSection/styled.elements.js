@@ -58,6 +58,7 @@ export const ProjectsWrapper = styled.div`
 export const ProjectCard = styled.div`
   width: 100%;
   height: auto;
+  position:relative;
 	
 `;
 

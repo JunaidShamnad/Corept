@@ -32,7 +32,7 @@ function Faq() {
     <Section>
       <Container>
         <LeftContainer>
-          <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/02/faq.jpg" alt="image"/>
+          <Image src="/images/tre.jpeg" alt="image"/>
         </LeftContainer>
         <RightContainer>
           <Head>Fequality Ask Question</Head>
@@ -40,9 +40,9 @@ function Faq() {
           <Faqs>
           {Data.map((item, index) => {
             return (
-              <>
-              <QuestionWrapper>
-            <QuestionSection onClick={() => toggle(index)} key={index}>
+              
+              <QuestionWrapper key={item.id}>
+            <QuestionSection onClick={() => toggle(index)} >
               
               <Question>{item.question} {clicked === index ?<FiMinus/>: <FiPlus />}</Question>
             </QuestionSection>
@@ -50,7 +50,7 @@ function Faq() {
             <Answer>{item.answer}</Answer>
             ) : null}
             </QuestionWrapper>
-           </>
+          
             );
           })}
             </Faqs>

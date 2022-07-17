@@ -1,7 +1,4 @@
- 
- 
- 
- import {
+import {
   Section,
   Container,
   Service,
@@ -14,9 +11,9 @@
   Title,
   BackgroundText,
   SectionHead,
-  SectionTitle
-
+  SectionTitle,
 } from "./styled.elements";
+import {IoConstructOutline} from 'react-icons/io';
 
 function index() {
   return (
@@ -24,51 +21,52 @@ function index() {
       <SectionHead>Our Services</SectionHead>
       <SectionTitle>Whats Our Offers</SectionTitle>
       <Container>
-        <Service>
-          <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/02/blog-4-370x270.jpg" alt="image"/>
+      <Service>
+          <Image src="/images/serv.jpeg" alt="image" />
           <ServiceDiv>
             <Icon></Icon>
             <Title>POST TENSIONING SERVICES</Title>
             <Overlay>
               <Description>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium dolore mque laudantium, totam rem aperiam, eaque ips
-                quae ab illo invent ore veritatis…
+                In the year 2021 CPC Acquired Specialised Engineering a leading
+                Post Tensioning Company in the Kingdom of Bahrain as a part of
+                the diversification strategy.
               </Description>
               <Button>Read More</Button>
             </Overlay>
           </ServiceDiv>
         </Service>
         <Service>
-          <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/services1-370x270.jpg" alt="image"/>
+          <Image src="/images/ptraft.jpeg" alt="Image" />
           <ServiceDiv>
             <Icon></Icon>
-            <Title>POST TENSIONING SYSTEM</Title>
+            <Title>PT Raft Foundationn</Title>
             <Overlay>
               <Description>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium dolore mque laudantium, totam rem aperiam, eaque ips
-                quae ab illo invent ore veritatis…
+                Post Tensioning is a method of reinforcing concrete. High
+                strength steel tendons are passed into the ducts (systematic
+                procedure) and concrete is poured after that tension applied to
+                the concrete
               </Description>
               <Button>Read More</Button>
             </Overlay>
           </ServiceDiv>
         </Service>
-        {/* <Service>
-          <Image src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/service-5-370x270.jpg" />
+        <Service>
+          <Image src="/images/sys.jpeg" alt="image" />
           <ServiceDiv>
             <Icon></Icon>
-            <Title>Interior Design</Title>
+            <Title>POST TENSIONING SYSTEM</Title>
             <Overlay>
               <Description>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium dolore mque laudantium, totam rem aperiam, eaque ips
-                quae ab illo invent ore veritatis…
+                Our goal is to strengthen our position as a trusted post
+                tensioning service provider in Kingdom of Bahrain through the
+                development of our technical expertise &amp; satisfy the customer.
               </Description>
               <Button>Read More</Button>
             </Overlay>
           </ServiceDiv>
-        </Service> */}
+        </Service>
       </Container>
     </Section>
   );

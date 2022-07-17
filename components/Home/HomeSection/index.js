@@ -12,11 +12,12 @@ import {
 } from "./styled.elements";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Link from 'next/link';
 
 
 function index() {
   return (
-    <Carousel showArrows={true} autoPlay={true} interval={1900} swipeable={true} width={"100%"} useKeyboardArrows={true}  emulateTouch={true} infiniteLoop={true} showStatus={false}>
+    <Carousel showArrows={true} autoPlay={true} interval={1900} swipeable={true} width={"100%"} useKeyboardArrows={true}  emulateTouch={true} infiniteLoop={true} showStatus={false} showThumbs={false}>
     <SectionOne>
       <Container>
 
@@ -24,8 +25,12 @@ function index() {
         <Title>Your Expectations are Our Milestones</Title>
         <Description>We as a Specialist agency in Post Tensioning, offer efficient structural solution to Building and infrastructure works.</Description>
         <Buttons>
-          <Button>Our Work</Button>
-          <ButtonTwo>Contact</ButtonTwo>
+        <Link href="/projects" passHref>
+          <a><Button>Our Work</Button></a>
+          </Link>
+          <Link href="/contact-us" passHref>
+          <a><ButtonTwo>Contact</ButtonTwo></a>
+          </Link>
         </Buttons>
       </Container>
     </SectionOne>
@@ -36,8 +41,12 @@ function index() {
         <Title>Sustainable Engineering Solution</Title>
         <Description>Customer Satisfaction is always our top priority in the operations.</Description>
         <Buttons>
-          <Button>Our Work</Button>
-          <ButtonTwo>Contact</ButtonTwo>
+        <Link href="/projects" passHref>
+          <a><Button>Our Work</Button></a>
+          </Link>
+          <Link href="/contact-us" passHref>
+          <a><ButtonTwo>Contact</ButtonTwo></a>
+          </Link>
         </Buttons>
       </Container>
     </SectionTwo>
@@ -48,8 +57,12 @@ function index() {
         <Title>Uncover the true Potential of your structure</Title>
         <Description>Strive towards greater cost competitiveness and work towards continued Financial Performance</Description>
         <Buttons>
-          <Button>Our Work</Button>
-          <ButtonTwo>Contact</ButtonTwo>
+        <Link href="/projects" passHref>
+          <a><Button>Our Work</Button></a>
+          </Link>
+          <Link href="/contact-us" passHref>
+          <a><ButtonTwo>Contact</ButtonTwo></a>
+          </Link>
         </Buttons>
       </Container>
     </SectionThree>

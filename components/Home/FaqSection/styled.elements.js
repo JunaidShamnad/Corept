@@ -10,9 +10,12 @@ padding: 0px 15px;
 margin: 0 auto;
 display: flex;
 flex-direction: row;
+justify-content:center;
+align-items: center;
 @media(max-width: 768px){
     flex-direction: column;
     align-items: center;
+    justify-content:center;
 }
 
 
@@ -29,6 +32,8 @@ export const Image = styled.img`
 `
 export const Faqs = styled.div`
  user-select: none;
+ width:90%;
+ height:auto;
 `
 
 export const QuestionWrapper = styled.div`
@@ -49,7 +54,7 @@ align-items: center;
     width: 90%;
 }
 `
-export const Question = styled.h1`
+export const Question = styled.h3`
     border-color: #ffb200;
     background-color: #ffb200;
     position: relative;
@@ -68,7 +73,10 @@ export const Question = styled.h1`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    @media screen and (max-width:580px) {
+        font-size:14px;
+    }
 `
 export const Title = styled.h1`
     position: relative;
@@ -92,7 +100,7 @@ export const Answer = styled.p`
 export const Head = styled.p`
     position: relative;
     color: #fbb908;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     margin-bottom: 15px;
     text-transform: capitalize;

@@ -33,29 +33,32 @@ const Footer = () => {
         <FooterWrapper>
           <FooterTopWrapper>
             <FooterLogoDiv>
-              <FooterLogoDivImage src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyebtd1EtHzb3yStiqATU1n3Zu6V393BhXjg&usqp=CAU" />
+              <FooterLogoDivImage src="/images/logo.jpg" />
               <FooterLogoDivDesc>
                 We are a Bahraini Company headed by the Executive Director, Mrs.
                 Aala Ebrahim Janahi and Director of Mr. Mohammed Janahi
               </FooterLogoDivDesc>
               <FooterLogoDivSocial>
-                <FooterLogoDivLink href="facebook.com">
+                {/* <FooterLogoDivLink href="facebook.com">
                   <FooterLogoDivLinkA>
                     <FooterLogoDivSocialFacebook />
                   </FooterLogoDivLinkA>
-                </FooterLogoDivLink>
+                </FooterLogoDivLink> */}
 
-                <FooterLogoDivLink href="instagram.com">
+                <FooterLogoDivLink
+                  href="https://www.instagram.com/p/Cfw7CuAM5rh/?igshid=MDJmNzVkMjY="
+                  passHref
+                >
                   <FooterLogoDivLinkA>
                     <FooterLogoDivSocialInsta />
                   </FooterLogoDivLinkA>
                 </FooterLogoDivLink>
 
-                <FooterLogoDivLink href="twitter.com">
+                {/* <FooterLogoDivLink href="twitter.com">
                   <FooterLogoDivLinkA>
                     <FooterLogoDivSocialTwitter />
                   </FooterLogoDivLinkA>
-                </FooterLogoDivLink>
+                </FooterLogoDivLink> */}
               </FooterLogoDivSocial>
             </FooterLogoDiv>
 
@@ -63,20 +66,25 @@ const Footer = () => {
               <FooterWorkingTitle>Working Hours</FooterWorkingTitle>
               <FooterWorkingTitleUnderline />
               <IconContainer>
-                <IconContainerMail />{" "}
+                <IconContainerMail />
                 <IconContainerText>info@corept.me</IconContainerText>
               </IconContainer>
               <IconContainer>
-                <IconContainerPhone />{" "}
+                <IconContainerPhone />
                 <IconContainerText>+973 3230 2049</IconContainerText>
               </IconContainer>
-              <IconContainer>
-                <IconContainerLocation />{" "}
-                <IconContainerText>Kingdom of Bahrain</IconContainerText>
-              </IconContainer>
+          
               <IconContainer>
                 <IconContainerTime />{" "}
                 <IconContainerText>08:00 am - 05:00 pm</IconContainerText>
+              </IconContainer>
+              <IconContainer>
+                <IconContainerLocation />
+                <IconContainerText>
+                  villa -130, road -2803, block-328
+                  <br />
+                  Manama Kingdom of Bahrain
+                </IconContainerText>
               </IconContainer>
             </FooterWorkingDiv>
           </FooterTopWrapper>

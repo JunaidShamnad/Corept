@@ -61,6 +61,7 @@ export const FooterLogoDivImage = styled.img`
     width: 170px;
     height: 70px;
     margin-bottom:15px;
+    object-fit:contain;
 `;
 
 export const FooterLogoDivDesc = styled.p`
@@ -148,13 +149,13 @@ color: #ffffff;
 export const IconContainerMail = styled(GoMail)`
 color:#ffb200;
 `;
-export const IconContainerPhone = styled(GoLocation)`
+export const IconContainerPhone = styled(BsTelephone)`
 color:#ffb200;
 `;
-export const IconContainerLocation = styled(IoMdTime)`
+export const IconContainerLocation = styled(GoLocation)`
 color:#ffb200;
 `;
-export const IconContainerTime = styled(BsTelephone)`
+export const IconContainerTime = styled(IoMdTime)`
 color:#ffb200;
 `;
 

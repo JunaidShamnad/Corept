@@ -4,7 +4,7 @@ import Image from 'next/image'
 export const Section = styled.div`
 background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/2020/10/1.jpg");
 background-repeat: no-repeat;
-padding:200px 0 100px 0;
+padding:200px 0;
 position: relative;
 @media(max-width: 768px){
     padding: 20px 0 100px 0;
@@ -41,7 +41,7 @@ height:333px;
 position: absolute;
 object-fit:cover;
 right:30px;
-top:-100px;
+top:0;
 @media(max-width: 768px){
     position: relative;
     width: 90%;
@@ -63,15 +63,17 @@ export const DotImage = styled.img`
 
 `
 export const SecondImage = styled.img`
-width: 360px;
+width: 500px;
+height:auto;
 z-index:99;
 position: absolute;
 object-fit:cover;
 right:0;
+top:5rem;
 max-height: 620px;
 /* height:auto; */
 overflow: hidden;
-@media(max-width: 768px){
+@media(max-width: 990px){
     display: none;
 }
 
@@ -87,10 +89,12 @@ padding: 70px 90px 74px;
 background-color: #ffffff;
 border: 20px solid #f2f2f2;
 border-left: 0;
+margin-top:5rem;
 @media(max-width: 768px){
     padding: 15px;
     width: 95%;
     border-left:20px solid #f2f2f2;
+    margin-top:9rem;
 }
 `
 export const Title = styled.h1`
@@ -99,6 +103,7 @@ color: #222222;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.4em;
+margin-bottom:1rem;
 @media(max-width: 768px){
     font-size: 24px;
     margin-bottom:22px;
@@ -148,6 +153,7 @@ margin-bottom: 45px;
 `
 export const Button = styled.button`
 position: absolute;
+cursor:pointer;
 top: -1px;
 right: -1px;
 left: -1px;

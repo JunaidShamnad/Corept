@@ -2,13 +2,12 @@ import styled from 'styled-components'
 
 export const Section = styled.div`
 padding: 100px 0px;
-
 text-align: center;
 width:100vw;
 height:100%;
 `
 export const Container = styled.div`
-padding:50px 200px;
+padding:4rem 4rem;
 margin: 0 auto;
 display: flex;
 flex-direction: row;
@@ -20,14 +19,14 @@ justify-content: space-evenly;
 }
 `
 export const Service = styled.div`
-margin: 25px;
+margin: 20px;
 width:100%;
 display: flex;
 flex-direction:column;
 align-items: center;
 @media (max-width: 768px) {
     margin: 0;
-    margin-bottom:40px;
+      margin-bottom:40px;
 }
 `
 export const Icon = styled.i`
@@ -45,13 +44,15 @@ font-size: 34px;
 margin-left: 0px;
 `
 export const Image = styled.img`
-width: 370px;
-height: 270px;
+width: 100%;
+object-fit: cover;
 @media(max-width: 768px){
     width: 90%;
     margin-top:50px;
 }
-
+@media(min-width: 768px)and (max-width:1367px){
+    width: 90%;
+}
 `
 export const ServiceDiv = styled.div`
 display: flex;
@@ -60,13 +61,18 @@ align-items: center;
 justify-content: space-between;
 position: relative;
 padding: 11px 0px;
+width:100%;
 height:71px;
+margin:0 auto;
 background-color: rgba(0,0,0,0.90);
 color:#fff;
-@media(max-width: 768px){
+@media(max-width: 767px){
     width:90%;
 }
 @media (min-width: 768px)and (max-width:1367px) {
+    width: 90%;
+}
+@media(min-width: 1368px){
     width: 100%;
 }
 `
@@ -81,10 +87,10 @@ display: none;
 export const Title = styled.h1`
     position: relative;
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     padding: 11px 0px;
-    padding-left: 100px;
+    padding-left: 5rem;
     
 
 `

@@ -6,7 +6,7 @@ background-repeat: no-repeat;
 padding:200px 0 100px 0;
 position: relative;
 @media(max-width: 768px){
-    padding: 20px 0 100px 0;
+    padding: 200px 0 100px 0;
 } 
 `
 export const Container = styled.div`
@@ -38,6 +38,7 @@ export const FirstImage = styled.img`
 width: 500px;
 height:333px;
 position: absolute;
+object-fit:cover;
 right: 0;
 top:-100px;
 @media(max-width: 768px){
@@ -61,14 +62,21 @@ export const DotImage = styled.img`
 
 `
 export const SecondImage = styled.img`
-width: 355px;
+width: 450px;
+height:auto;
 z-index:99;
 position: absolute;
+object-fit:cover;
 right:0;
 max-height: 635px;
 overflow: hidden;
 @media(max-width: 768px){
     display: none;
+    width: 320px;
+}
+@media(max-width: 320px){
+    display: none;
+    width: 310px;
 }
 `
 export const RightContainer = styled.div`
@@ -126,17 +134,17 @@ left: 0;
 display: block;
 font-size: 60px;
 line-height: 78px;
-color: #f2f2f2;
+color: #fff;
 z-index:999;
 font-weight: 900;
 text-transform: uppercase;
-text-shadow: 0 0 10px #000;
+text-shadow: 2px 3px 2px rgba(0,0,0,0.53);
 font-family: "Rubik", sans-serif;
 @media(max-width: 768px){
     display: none;
 }
 @media (min-width: 768px)and (max-width:1367px) {
-    display: none;
+    /* display: none; */
   }
 `
 export const Description = styled.p`
@@ -152,6 +160,7 @@ margin-bottom: 45px;
 `
 export const Button = styled.button`
 position: absolute;
+cursor:pointer;
 top: -1px;
 right: -1px;
 left: -1px;

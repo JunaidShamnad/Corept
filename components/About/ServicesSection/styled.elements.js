@@ -2,13 +2,12 @@ import styled from 'styled-components'
 
 export const Section = styled.div`
 padding: 100px 0px;
-
 text-align: center;
 width:100vw;
 height:100%;
 `
 export const Container = styled.div`
-padding:50px 200px;
+padding:4rem 4rem;
 margin: 0 auto;
 display: flex;
 flex-direction: row;
@@ -20,7 +19,7 @@ justify-content: space-evenly;
 }
 `
 export const Service = styled.div`
-margin: 25px;
+margin: 20px;
 width:100%;
 display: flex;
 flex-direction:column;
@@ -62,7 +61,9 @@ align-items: center;
 justify-content: space-between;
 position: relative;
 padding: 11px 0px;
+width:100%;
 height:71px;
+margin:0 auto;
 background-color: rgba(0,0,0,0.90);
 color:#fff;
 @media(max-width: 767px){
@@ -86,10 +87,10 @@ display: none;
 export const Title = styled.h1`
     position: relative;
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     padding: 11px 0px;
-    padding-left: 100px;
+    padding-left: 5rem;
     
 
 `

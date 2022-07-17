@@ -5,8 +5,8 @@ export const Data = [
       id: '1',
     },
     {
-      question: 'Which is better pre tensioning or post tensioning?',
-      answer: 'Each has its advantages. Pre-tension is are preferred for mass production of similar setup off-site (e.g. concrete piles) . The setup is more complex and is more delicate in details. Post-tension is preferred for on-site installation. The stressing equipment is portable and easy to use.',
+      question: 'How Post Tensioning is done?',
+      answer: 'Post tensioning is a technique for reinforcing concrete. Post-tensioning tendons, which are prestressing steel cables inside plastic ducts or sleeves, are positioned in the forms before the concrete is placed.',
       id: '2',
     },
     {

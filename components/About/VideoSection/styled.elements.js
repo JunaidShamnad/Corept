@@ -5,8 +5,8 @@ display: flex;
 flex-direction:row;
 justify-content: center;
 background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/7.jpg");
-padding:100px 0;
-
+padding:50px 0;
+margin-top:3rem;
 `
 export const Container = styled.div`
 padding:50px 200px;

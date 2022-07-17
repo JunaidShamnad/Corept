@@ -4,9 +4,9 @@ import {
   Container,
   LeftContainer,
   IndexNo,
+  Image,
   RightContainer,
   Title,
-  Image,
   Description,
   Button,
   Project,
@@ -15,6 +15,7 @@ import {
 import { FaLongArrowAltRight } from "react-icons/fa";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Link from 'next/link'
 
 function index() {
   return (
@@ -30,11 +31,12 @@ function index() {
           useKeyboardArrows={true}
           emulateTouch={true}
           showStatus={false}
+          showThumbs={false}
         >
           <Project>
             <LeftContainer>
               <Image
-                src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/project-2.jpg"
+                src="/images/projectImg/Web capture_15-7-2022_194814_.jpeg"
                 alt="image"
               />
             </LeftContainer>
@@ -49,16 +51,20 @@ function index() {
                 Post Tensioning Company in the Kingdom of Bahrain as a part of
                 the diversification strategy.
               </Description>
-              <Button>
-                See Project <FaLongArrowAltRight />
-              </Button>
+              <Link href="/projects" passHref>
+                <a>
+                  <Button>
+                    See Project <FaLongArrowAltRight />
+                  </Button>
+                </a>
+              </Link>
             </RightContainer>
           </Project>
 
           <Project>
             <LeftContainer>
               <Image
-                src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/project-2.jpg"
+                src="/images/projectImg/Web capture_15-7-2022_19461_.jpeg"
                 alt="image"
               />
             </LeftContainer>
@@ -73,16 +79,20 @@ function index() {
                 development of our technical expertise&amp; satisfy the
                 customer.
               </Description>
-              <Button>
-                See Project <FaLongArrowAltRight />
-              </Button>
+              <Link href="/projects" passHref>
+                <a>
+                  <Button>
+                    See Project <FaLongArrowAltRight />
+                  </Button>
+                </a>
+              </Link>
             </RightContainer>
           </Project>
 
           <Project>
             <LeftContainer>
               <Image
-                src="https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/project-2.jpg"
+                src="/images/projectImg/Web capture_17-7-2022_104339_.jpeg"
                 alt="image"
               />
             </LeftContainer>
@@ -92,13 +102,17 @@ function index() {
               </IndexNo>
               <Title> VILLA AT MURQOBAN</Title>
               <Description>
-                &quot;Customer Satisfaction&quot; is always our top priority in the
-                operations. HSE, Quality and Reliability are the comer-stones of
-                CPC&apos;s business venture.
+                &quot;Customer Satisfaction&quot; is always our top priority in
+                the operations. HSE, Quality and Reliability are the
+                comer-stones of CPC&apos;s business venture.
               </Description>
-              <Button>
-                See Project <FaLongArrowAltRight />
-              </Button>
+              <Link href="/projects" passHref>
+                <a>
+                  <Button>
+                    See Project <FaLongArrowAltRight />
+                  </Button>
+                </a>
+              </Link>
             </RightContainer>
           </Project>
         </Carousel>

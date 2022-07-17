@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Section = styled.div`
-background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/revslider/Home/slider-3.jpg");
+background-image: url("/images/Banner-3.jpg");
 width:100%;
 height:40vh;
 background-size:cover;

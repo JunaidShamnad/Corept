@@ -17,7 +17,6 @@ export const Section = styled.div`
   }
 `;
 export const Container = styled.div`
-  padding: 50px 200px;
   padding: 0px 15px;
   max-width: 1200px;
   margin: 0 auto;
@@ -27,6 +26,7 @@ export const Container = styled.div`
   flex-direction: row;
   @media (max-width: 768px) {
     flex-direction: column;
+    
   }
 `;
 export const Counter = styled.div`
@@ -41,8 +41,8 @@ export const Counter = styled.div`
   padding: 20px 0;
   padding-left: 20px;
   @media (max-width: 768px) {
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
   }

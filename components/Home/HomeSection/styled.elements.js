@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 
 export const SectionOne = styled.div`
-background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/revslider/Home/slider-3.jpg");
+background-image: url("/images/Banner-1.jpg");
 width:100%;
-height:100vh;
+height:108vh;
+margin-top:0;
 background-size:cover;
 background-repeat: no-repeat;
+background-position: center;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -18,11 +20,12 @@ cursor:grab;
 `
 
 export const SectionTwo = styled.div`
-background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/revslider/Home/slider-3.jpg");
+background-image: url("/images/Banner-2.jpg");
 width:100%;
-height:100vh;
+height:108vh;
 background-size:cover;
 background-repeat: no-repeat;
+background-position: center;
 display: flex;
 flex-direction: row;
 cursor:grab;
@@ -34,12 +37,13 @@ align-items: center;
 `
 
 export const SectionThree = styled.div`
-background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/revslider/Home/slider-3.jpg");
+background-image: url("/images/Banner-3.jpg");
 width:100%;
-height:100vh;
+height:108vh;
 cursor:grab;
 background-size:cover;
 background-repeat: no-repeat;
+background-position: center;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -72,7 +76,7 @@ width:80%;
 text-align: center;
 @media(max-width: 768px){
     font-size: 37px;
-    width: 75%;
+    width: 90%;
 }
 
 `
@@ -80,25 +84,25 @@ export const Description = styled.p`
 font-size:18px;
 text-align: center;
 margin-top: 15px;
-width:45%;
+width:48%;
 line-height:130%;
 color:#fff;
 @media(max-width: 768px){
-    /* opacity: 1;
-    width: 64px;
-    height: 18px;
-    transform: translate(-32px, -38px);
-    top: 100%;
-    left: 50% */
+width:65%;
 }
 `
 export const Buttons = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: center;
+
+@media screen and (max-width:400px){
+    flex-direction:column;
+}
 `
 export const Button = styled.button`
     background: #ffb200;
+    cursor:pointer;
     border-color: #ffb200;
     width: 140px;
     height: 42px;
@@ -115,6 +119,7 @@ export const ButtonTwo = styled.button`
     background: transparent;
     border:2px solid #ffb200;
     width: 140px;
+    cursor: pointer;
     height: 42px;
     border-radius: 50px;
     color: #ffb200;

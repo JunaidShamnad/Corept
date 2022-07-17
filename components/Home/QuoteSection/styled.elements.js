@@ -36,6 +36,7 @@ text-transform: uppercase;
 export const Button = styled.button`
 background: #ffb200;
 border-color: #ffb200;
+cursor:pointer;
 width: 170px;
 height: 52px;
 border-radius:50px;

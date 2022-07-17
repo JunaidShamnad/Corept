@@ -4,11 +4,12 @@ export const Section = styled.div`
 display: flex;
 flex-direction:row;
 justify-content: center;
-background-image: url("https://expert-themes.com/newwp/emarat/wp-content/uploads/2019/01/5.jpg");
+background-image: url("/images/bg.jpg");
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
--webkit-filter: grayscale(100%);
-filter: grayscale(75%);
+filter: grayscale(15%);
+user-select:none;
 `
 export const Container = styled.div`
 padding:50px 200px;
@@ -32,14 +33,12 @@ export const Title = styled.h1`
 
 `
 export const Image = styled.img`
-width: 234px;
+width: 180px;
+object-fit:contain;
+margin-right:16px;
+height:80px;
 display: inline-block;
 transition: all 0.3s ease;
--moz-transition: all 0.3s ease;
--webkit-transition: all 0.3s ease;
--ms-transition: all 0.3s ease;
--o-transition: all 0.3s ease;
--webkit-filter: grayscale(100%);
-filter: grayscale(100%);
-
+/* filter: grayscale(50%); */
+/* opacity:0.9; */
 `

@@ -1,34 +1,45 @@
 import styled from "styled-components";
 
 export const Section = styled.div`
-  margin-bottom: 100px;
-  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  background-color: #fff;
   width:100vw;
-  height:100%;
+  max-height:auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  margin-top:100px;
 `;
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
- user-select: none;
- overflow:hidden;
- width: 90%;
- cursor:grab;
+  user-select: none;
+  overflow:hidden;
+  width: 90%;
+  height:auto;
+  cursor:grab;
   @media (max-width: 768px) {
     flex-direction: column;
   }
   
 `;
 export const LeftContainer = styled.div`
-margin-right:1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  position:relative;
+  
+
 `;
 export const Image = styled.img`
-  width: 770px;
-  height: 450px;
+  width: 100%;
+  height: auto;
+  object-fit:cover;
   border-radius: 20px;
   @media (max-width: 768px) {
     width: 100%;
@@ -37,27 +48,31 @@ export const Image = styled.img`
 `;
 export const Project = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   align-items: center;
   justify-content: center;
   padding:1.5rem;
   position: relative;
-  width:100%;
-height:auto;
-background-size:cover;
-background-repeat: no-repeat;
+  width:90%;
+   height:auto;
+   margin:0 auto;
+   background-size:cover;
+  background-repeat: no-repeat;
   
   @media (max-width: 768px) {
     flex-direction: column;
   }
   @media (min-width: 768px)and (max-width:1367px) {
-    flex-direction: column;
+    flex-direction: row;
   }
 `;
 
 export const RightContainer = styled.div`
   width: 370px;
-  height: 473px;
+  height: auto;
+  margin-bottom:1rem;
+  max-width:100%;
+  overflow:none;
   padding: 95px 20px 0 20px;
   margin-left: auto;
 
@@ -87,13 +102,15 @@ export const Title = styled.h1`
 export const Description = styled.p`
   position: relative;
   opacity:0.8;
+  text-align:center;
   line-height: 1.5em;
   margin-bottom: 1rem;
-  width:100%;
+  width:90%;
   @media (max-width: 768px){
     font-size: 12px;
-    width: 65%;
+    width: 50%;
     margin-right: 0;
+    display:none;
     
   }
 `;
@@ -103,10 +120,7 @@ export const Button = styled.button`
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -ms-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
+  text-decoration:underline;
   transition: all 300ms ease;
   background-color: transparent;
   border: none;

@@ -25,6 +25,7 @@ body{
 a {
     color: inherit;
     text-decoration: none;
+    cursor: pointer;
 }
 
 * {
@@ -44,6 +45,10 @@ img{
     height:100%;
     border-radius:10px;
     width:100%;
+}
+button{
+    cursor:pointer;
+    outline:none;
 }
 
 section{

@@ -68,6 +68,7 @@ export const SidebarMenuLink = styled(Link)`
   }`;
 export const SidebarMenuLinkA = styled(motion.a)`
  color:#000;
- font-size: 1.4rem;
+ font-size: 1.5rem;
   font-weight:400;
+  margin-bottom:10px;
 `;
