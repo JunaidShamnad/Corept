@@ -22,7 +22,7 @@ function index() {
     <Section>
       <Container>
         <Carousel
-          
+          infiniteLoop={true}
           showArrows={true}
           autoPlay={true}
           interval={1900}
