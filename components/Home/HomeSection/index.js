@@ -17,7 +17,7 @@ import Link from 'next/link';
 
 function index() {
   return (
-    <Carousel showArrows={true} autoPlay={true} interval={1900} width={"40"} useKeyboardArrows={true} infiniteLoop={true} showStatus={false} showThumbs={false}>
+   
     <SectionOne>
       <Container>
 
@@ -34,39 +34,39 @@ function index() {
         </Buttons>
       </Container>
     </SectionOne>
-    <SectionTwo>
-      <Container>
+    // <SectionTwo>
+    //   <Container>
 
-        {/* <Head>We are the best</Head> */}
-        <Title>Sustainable Engineering Solution</Title>
-        <Description>Customer Satisfaction is always our top priority in the operations.</Description>
-        <Buttons>
-        <Link href="/projects" passHref>
-          <a><Button>Our Work</Button></a>
-          </Link>
-          <Link href="/contact-us" passHref>
-          <a><ButtonTwo>Contact</ButtonTwo></a>
-          </Link>
-        </Buttons>
-      </Container>
-    </SectionTwo>
-    <SectionThree>
-      <Container>
+    //     {/* <Head>We are the best</Head> */}
+    //     <Title>Sustainable Engineering Solution</Title>
+    //     <Description>Customer Satisfaction is always our top priority in the operations.</Description>
+    //     <Buttons>
+    //     <Link href="/projects" passHref>
+    //       <a><Button>Our Work</Button></a>
+    //       </Link>
+    //       <Link href="/contact-us" passHref>
+    //       <a><ButtonTwo>Contact</ButtonTwo></a>
+    //       </Link>
+    //     </Buttons>
+    //   </Container>
+    // </SectionTwo>
+    // <SectionThree>
+    //   <Container>
 
-        {/* <Head>We are the best</Head> */}
-        <Title>Uncover the true Potential of your structure</Title>
-        <Description>Strive towards greater cost competitiveness and work towards continued Financial Performance</Description>
-        <Buttons>
-        <Link href="/projects" passHref>
-          <a><Button>Our Work</Button></a>
-          </Link>
-          <Link href="/contact-us" passHref>
-          <a><ButtonTwo>Contact</ButtonTwo></a>
-          </Link>
-        </Buttons>
-      </Container>
-    </SectionThree>
-    </Carousel>
+    //     {/* <Head>We are the best</Head> */}
+    //     <Title>Uncover the true Potential of your structure</Title>
+    //     <Description>Strive towards greater cost competitiveness and work towards continued Financial Performance</Description>
+    //     <Buttons>
+    //     <Link href="/projects" passHref>
+    //       <a><Button>Our Work</Button></a>
+    //       </Link>
+    //       <Link href="/contact-us" passHref>
+    //       <a><ButtonTwo>Contact</ButtonTwo></a>
+    //       </Link>
+    //     </Buttons>
+    //   </Container>
+    // </SectionThree>
+   
   );
 }
 
