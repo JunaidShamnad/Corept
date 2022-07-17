@@ -33,6 +33,12 @@ a {
 * {
     box-sizing: border-box;
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
     padding: 0;
     margin: 0;   
     font-family: 'Poppins', sans-serif;
@@ -44,6 +50,14 @@ a {
      /*---------------------------- for inspection of frontend  *end-------------------------------- */
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 img{
     height:100%;
     border-radius:10px;
@@ -52,6 +66,7 @@ img{
 button{
     cursor:pointer;
     outline:none;
+    user-select: none;
 }
 
 section{
